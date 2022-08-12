@@ -73,7 +73,7 @@ $form.TopMost = $true
 $form.add_shown({$textbox.Select()})
 $result = $form.ShowDialog()
 
-#If statement fo
+#If statement that defines the textbox input as a variable
 if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 {
     $filename = $textbox.Text
